@@ -1,4 +1,54 @@
-.container {
+.grid {
+  display: grid;
+  grid-template-columns: 12fr 12fr 12fr;
+  padding: 20px;
+}
+
+.cd {
+  margin: 0%;
+}
+
+.secBody{
+  background-color: rgb(24, 24, 24);
+}
+
+.footer {
+  height: 45vh;
+  background-image: url(../images/illid.jpg);
+  background-size: 100% 100%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 12fr 12fr;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.image:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.mainTitle {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: fantasy;
+  line-height: 0.75;
+  margin: 10px 0;
+  padding-top: 50px;
+}
+
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -112,7 +162,7 @@
 
 .logo {
   height: 1em;
-}
+} */
 
 @media (max-width: 600px) {
   .grid {
